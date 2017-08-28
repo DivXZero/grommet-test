@@ -46,11 +46,11 @@ class Main extends Component {
             {nav}
             <Switch>
               <Route exact={true} path='/' component={Dashboard} />
-              <Route path='/dashboard' component={Dashboard} />
-              <Route path='/login' component={Login} />
-              <Route path='/tasks/:id' component={Task} />
-              <Route path='/tasks' component={Tasks} />
-              <Route path='/*' component={NotFound} />
+              <Route path='/grommet-test/dashboard' component={Dashboard} />
+              <Route path='/grommet-test/login' component={Login} />
+              <Route path='/grommet-test/tasks/:id' component={Task} />
+              <Route path='/grommet-test/tasks' component={Tasks} />
+              <Route path='/grommet-test/*' component={NotFound} />
             </Switch>
           </Split>
         </Router>
